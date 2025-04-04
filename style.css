@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  svg {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+
+  .square {
+    fill: #f4a261;
+    stroke: #264653;
+    stroke-width: 5px;
+  }
+  
+  .rectangle {
+    fill: #e76f51;
+    stroke: #2a9d8f;
+    stroke-width: 5px;
+  }
+  
+  .circle {
+    fill: #a8dadc;
+    stroke: #1d3557;
+    stroke-width: 5px;
+    transition: fill 1s ease-in-out, stroke 1s ease-in-out;
+  }
+  
+  .animate-me:hover {
+    fill: #ff006e;
+    stroke: #8338ec;
+  }
+  
+  .ellipse {
+    fill: #ffb703;
+    stroke: #023047;
+    stroke-width: 5px;
+  }
+  
